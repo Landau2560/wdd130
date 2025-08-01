@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn about our rafting company's mission, history, and adventures!">
+    <meta name="author" content="Landau Grandberry">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>About Us | Whitewater Rafting Co.</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/d-raftingcompas.jpg" alt="Rafting Company Logo" width="100">
+        <h1>Whitewater Rafting Co.</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <section class="contact-info">
+            <h3>Company Info</h3>
+            <p>222 Running Raft Blvd<br>Water Town, CO 22222</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email:Waterraftco@adventuretime.com</p>
+
+            <iframe  class="map"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d197901.32507636189!2d-108.46659096777992!3d39.19271758784132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20in%20colorado!5e0!3m2!1sen!2sus!4v1754003828460!5m2!1sen!2sus" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </section>
+
+        <section class="employees">
+            <h3>Our Team</h3>
+            <figure>
+                <img src="images/employee1-1927107612-1024x1024.jpg" alt="Guide Jake">
+                <figcaption>Jake - Senior Raft Guide </figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2-1067019622-1024x1024.jpg" alt="Guide Josh">
+                <figcaption>Josh - Raft Guide </figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3-847060782-1024x1024.jpg" alt="Guide Drake">
+                <figcaption>Drake - Raft Guide </figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send Us A Message</h3>
+            <form action="thanks.html" method="post">
+                <lable for="fullname">Full Name:</lable>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="Email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose Of Message:</p>
+                <label><input type="radio" name="Purpose" value="general"> General Inquiry</label><br>
+                <label><input type="radio" name="Purpose" value="reservation"> Reservation Questions</label><br>
+                <label><input type="radio" name="Purpose" value="suggestion"> Website suggestion</label><br>
+
+                <label for="Message">Message:</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>@Copy; 2025 Whitewater Rafting Co. | Landau Grandberry</p>
+        <p><a href="https://app.moqups.com/2ZVTZFLv8B1xe4K8YRGujuTZp4Hvzul5/view/page/ad64222d5" target="_blank">View Contact Page Wireframe </a></p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/986944_facebook_icon.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/986958_twitter_icon.svg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/986947_instagram_icon.svg" alt="Instagram"></a>
+
+
+        </nav>
+    </footer>
+</body>
+
+</html>
