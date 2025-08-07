@@ -32,6 +32,52 @@ header img {
     width: 80px;
 }
 
+.trip-decriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+   
+    
+}
+
+.trip {
+    background-color: #18758a;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+ 
+}
+
+.trip img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.trip-table {
+    padding: 2rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #3a3f44;
+    padding: 10px;
+    text-align: center;
+}
+
+.cta {
+    background-color: #18758a;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
 header h1 {
     margin: 0;
     font-family: var(--heading-font)
